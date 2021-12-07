@@ -1,0 +1,6 @@
+_reset.scss
+.cache
+*.html
+assets/dist/
+node_modules/
+package-lock.json

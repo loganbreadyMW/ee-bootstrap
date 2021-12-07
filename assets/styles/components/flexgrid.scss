@@ -1,0 +1,34 @@
+.flex-section {
+	.flex-item {
+		border: 1.5px solid var(--gray-800);
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+		margin: 15px;
+		padding: 0;
+		width: calc(100% - 30px);
+
+		.flex-anchor {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+
+			&:hover {
+			}
+		}
+
+		.flex-content {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			padding: 30px;
+		}
+
+		@media screen and (min-width: 768px) {
+			width: calc(50% - 30px);
+		}
+		@media screen and (min-width: 992px) {
+			width: calc(33.33333% - 30px);
+		}
+	}
+}
